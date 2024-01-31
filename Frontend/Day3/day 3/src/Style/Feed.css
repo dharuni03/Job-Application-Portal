@@ -1,0 +1,138 @@
+/* feed.css */
+.feedback-container {
+    text-align: center;
+    padding: 50px;
+    width:1290px;
+    background-image: url('https://png.pngtree.com/background/20210711/original/pngtree-blue-earth-technology-line-technology-banner-background-picture-image_1100059.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your background image */
+    background-size: cover; /* Adjust as needed */
+    background-position: center; /* Adjust as needed */
+    background-repeat: no-repeat;
+    color: #fff; /* Set text color to white or a color that contrasts well with the background */
+  }
+  
+  .title-feedback1 {
+    font-size: 31px;
+    font-weight: 800;
+    margin-left: 20px;
+    margin-right: -580px;
+    padding-bottom: 30px;
+  }
+  .title-feedback2 {
+    font-size: 31px;
+    font-weight: 800;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 30px;
+  }
+  
+  .rating-div, .question {
+    margin-bottom: 80px;
+  }
+  
+ .rating-div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+.smiley {
+  width: 70px;
+  height: 70px;
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+.smiley span {
+  display: block;
+}
+
+@media only screen and (max-width: 800px) {
+  .smiley {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+  }
+}
+
+  
+  
+  
+  .smiley-close {
+    opacity: 1 !important;
+    margin-top: 90px;
+    margin-left: -530px;
+    margin-right: -700px;
+  }
+  
+  .question a {
+    text-align: center;
+    display: block;
+    border: 2px solid #070601;
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: #000;
+    font-weight: 800;
+    padding: 10px 0;
+  }
+  
+  .question a:hover, .question a.active-qa {
+    background: #009df1;
+    color: #fff;
+  }
+  
+  .comment-div textarea {
+    width: 100%;
+    border: 2px solid #f18700;
+    resize: none;
+    outline: 0;
+    font-weight: 800;
+    padding: 20px;
+    font-size: 18px;
+  }
+  
+  .submit-btn {
+    margin-top: 40px;
+  }
+  
+  .submit-btn a {
+    display: inline-block;
+    background: #f18700;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 40px;
+    text-transform: uppercase;
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .smiley {
+      width: 97%;
+    }
+  
+    .smiley span {
+      width: 50px;
+      height: 50px;
+    }
+  }
+  
+  @media only screen and (max-width: 640px) {
+    .feedback-container {
+      text-align: center;
+      padding: 30px;
+    }
+  
+    .title-feedback {
+      font-size: 24px;
+    }
+  
+    .smiley {
+      width: 100%;
+    }
+  
+    .smiley span {
+      width: 40px;
+      height: 40px;
+      margin: 0 10px;
+    }
+  }
+  

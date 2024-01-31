@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400|Lora');
+:root {
+  --sans-serif: 'Open Sans', sans-serif;
+  --serif: 'Lora', serif;
+}
+/* login.css */
+/* Colors */
+:root {
+  --gray: #6992d8;
+  --lavender: #CBC0D3;
+  --pale: #6cb8dc;
+  --white: #f6f6f6;
+  --pink: #4b7acb;
+}
+
+/* Fonts */
+
+/* Body styling */
+.cn {
+  margin: auto;
+  width: 1290px;
+  height: 650px;
+  position: relative;
+  background-image: url('https://cdn.pixabay.com/photo/2016/03/22/15/29/blue-1273089_1280.jpg');
+  background-size: cover;
+  background-position: center;
+  overflow: hidden; /* Ensure the background image is not visible beyond the container */
+}
+
+/* Welcome box styling */
+.wc {
+  background: var(--white);
+  width: 650px;
+  height: 415px;
+  position: absolute;
+  margin-top: -90px;
+  margin-left: 320px;
+  top: 25%;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Pink box styling */
+.pb {
+  position: absolute;
+  top: -10%;
+  left: 5%;
+  background: var(--pale);
+  width: 320px;
+  height: 500px;
+  border-radius: 5px;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.5s ease-in-out; /* Add transition property */
+  z-index: 2;
+}
+
+.nodisplay {
+  display: none;
+  transition: all 0.5s ease;
+}
+
+/* Left and right box styling */
+.lb,
+.rb {
+  position: absolute;
+  width: 30%;
+  transition: 1s all ease;
+}
+
+.lb {
+  left: 9%;
+}
+
+.rb {
+  right: 7%;
+}
+
+/* Font and button styling */
+ .po {
+  text-align: center;
+  margin-top: 95px;
+  text-transform: uppercase;
+  color: var(--white);
+  font-size: 2em;
+} 
+
+.tt {
+  font-family: serif;
+  color:rgb(14, 130, 192);
+  font-size: 1.8em;
+  line-height: 1.0em;
+  letter-spacing: 2px;
+  text-align: center;
+  font-weight: 300;
+  margin-top: 20%;
+}
+
+.dsc {
+  margin-top: -8px;
+}
+
+.acnt {
+  margin-top: -39%;
+  font-size: 15px;
+  margin-left: 40px;
+  color:gray;
+}
+
+/* p {
+  font-family: var(--sans-serif);
+  font-size: .7em;
+  letter-spacing: 2px;
+  color: var(--gray);
+  text-align: center;
+}  */
+
+span {
+  color: var(--pale);
+}
+
+.fl {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  top: 46%;
+  left: 29%;
+  opacity: .7;
+}
+
+.smaller {
+  width: 90px;
+  height: 100px;
+  
+  top: 48%;
+  left: 38%;
+  opacity: .9;
+}
+
+/* .bt {
+  font-family: var(--sans-serif);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 11px;
+  border-radius: 10px;
+  margin: auto;
+  
+  outline: none;
+} */
+
+.bt:hover {
+  background:rgb(42, 170, 225);
+  color: var(--white);
+  transition: background-color 1s ease-out;
+}
+/* 
+.bt {
+  margin-top: 13%;
+  background:blue;
+  color: var(--pink);
+  border: solid 1px var(--pale);
+} */
+
+/* Form styling */
+ /* form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  padding-top: 17px; 
+  margin-top: 40px;
+}   */
+
+.mp {
+  padding-top: 35px;
+  
+
+  input {
+    padding: 12px;
+  }
+
+  .sbmt {
+    margin-top: 25px;
+    margin-left: -10px;
+    color: rgb(24, 120, 194);
+  }
+}
+
+/* .sbmt {
+  margin-top: 25px;
+  padding: 12px;
+  border-color: var(--pink);
+} */
+
+.sbmt:hover {
+  background: rgb(52, 154, 205);
+  /* border-color:rgb(51, 139, 227); */
+}
+/* 
+input {
+  background: var(--pale);
+  width: 65%;
+  color: white;
+  padding: 9px;
+  margin: 7px;
+}  */
+
+input::placeholder {
+  color:white;
+  letter-spacing: 2px;
+  font-size: 1.3em;
+  font-weight: 100;
+}
+
+input:focus {
+  color: var(--pink);
+  outline: none;
+  border-bottom: 1.2px solid rgba(var(--pink), 0.7);
+  font-size: 1em;
+  transition: .8s all ease;
+}
+
+input:focus::placeholder {
+  opacity: 0;
+}
+
+label {
+  font-family: var(--sans-serif);
+  color: var(--pink);
+  font-size: 0.8em;
+  letter-spacing: 1px;
+}
+
+.checkbox {
+  display: inline;
+  white-space: nowrap;
+  position: relative;
+  left: -62px;
+  top: 5px;
+}
+
+input[type=checkbox] {
+  width: 7px;
+  background: var(--pink);
+}
+
+.checkbox input[type="checkbox"]:checked + label {
+  color: var(--pink);
+  transition: .5s all ease;
+}
+.bt{
+  color:black;
+  margin-left: 50px;
+}
