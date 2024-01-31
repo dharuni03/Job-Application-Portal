@@ -1,0 +1,132 @@
+/* abt.css */
+
+/* .abt-sec {
+    position: relative;
+    padding: 60px 0;
+  } */
+  .abt-sec {
+    position: relative;
+    padding: 60px 0;
+    background-image: url('https://images.pexels.com/photos/3688761/pexels-photo-3688761.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .abt-sec .st {
+    margin-bottom: 45px;
+  }
+  
+  .abt-sec .cnt-col {
+    position: relative;
+    margin-bottom: 50px;
+  }
+  
+  .abt-sec .cnt-col .inn-col {
+    position: relative;
+    padding-left: 30px;
+  }
+  
+  .abt-sec .txt {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #848484;
+    font-weight: 400;
+  }
+  
+  .abt-sec .btn-bx {
+    position: relative;
+  }
+  
+  .abt-sec .btn-bx a {
+    padding: 15px 50px;
+  }
+  
+  .abt-sec .img-col {
+    position: relative;
+  }
+  
+  .abt-sec .img-col .inn-col {
+    position: relative;
+    padding-left: 80px;
+    padding-bottom: 0px;
+  }
+  
+  .abt-sec .img-col .inn-col .athr-dsc {
+    position: absolute;
+    bottom: 16px;
+    z-index: 1;
+    background: orange;
+    padding: 10px 15px;
+    left: 96px;
+    width: calc(100% - 152px);
+    border-radius: 50px;
+  }
+  
+  .abt-sec .img-col .inn-col .athr-dsc h2 {
+    font-size: 21px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+  }
+  
+  .abt-sec .img-col .inn-col .athr-dsc span {
+    font-size: 16px;
+    letter-spacing: 6px;
+    text-align: center;
+    color: #fff;
+    display: block;
+    font-weight: 400;
+  }
+  
+  .abt-sec .img-col .inn-col:before {
+    content: '';
+    position: absolute;
+    width: calc(50% + 80px);
+    height: calc(100% + 160px);
+    top: -80px;
+    left: -3px;
+    background: transparent;
+    z-index: 0;
+    border: 44px solid #00aeef;
+  }
+  
+  .abt-sec .img-col .img-1 {
+    position: relative;
+  }
+  
+  .abt-sec .img-col .img-2 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+  
+  .abt-sec .img-col .img-2 img,
+  .abt-sec .img-col .img-1 img {
+    box-shadow: 0 30px 50px rgba(8, 13, 62, 0.15);
+    border-radius: 46px;
+  }
+  
+  .abt-sec .img-col .video-link {
+    position: absolute;
+    left: 70px;
+    top: 170px;
+  }
+  
+  .abt-sec .img-col .video-link .link {
+    position: relative;
+    display: block;
+    font-size: 22px;
+    color: #191e34;
+    font-weight: 400;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    box-shadow: 0 30px 50px rgba(8, 13, 62, 0.15);
+    transition: all 300ms;
+  }
+  
