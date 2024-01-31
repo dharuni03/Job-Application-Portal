@@ -1,0 +1,286 @@
+.home-container {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-image: url('https://png.pngtree.com/background/20210709/original/pngtree-simple-e-commerce-character-business-picture-image_936030.jpg'); 
+    background-size: cover;
+    opacity: 190%;
+    background-repeat: no-repeat;
+    width: 1300px;
+    height: 100vh; 
+}
+  .header {
+    text-align: center;
+  }
+  
+  .header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .header p {
+    margin-bottom: 20px;
+  }
+  
+  .header-links {
+    display: flex;
+    justify-content: -150px; 
+    width: -900px;
+    margin-top: 20px;
+  }
+  .city-section {
+    text-align: center;
+    color: black; /* Set the color to black */
+  }
+  .city-section ul li {
+    color: black; /* Set the color to black */
+  }
+    
+  
+  .header-links span {
+    cursor: pointer;
+    color: #007bff;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .header-links span:hover {
+    color: #0056b3;
+  }
+  .nav-link {
+    text-decoration: none;
+    color: #101111;
+    font-weight: bold;
+    margin: 0 10px;
+    margin-left: 15px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .nav-link:hover {
+    color: #0056b3;
+  }
+
+  .top-bar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+  }
+  
+  .search-bar {
+    width: 280px; 
+    margin-right: -5px; 
+    margin-bottom: -80px;
+  }
+ 
+
+.search-bar-container {
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  top: 65%;
+  right: -0.5px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color:white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.city-section h3 {
+  text-align: center; 
+  color: rgb(12, 0, 0); 
+}
+
+
+.sidebar.open {
+  width: 200px;
+}
+
+.toggle-button {
+  font-size: 24px;
+  cursor: pointer;
+  color: #120101;
+  margin-bottom: -10px;
+  margin-right: 15px;
+}
+
+.toggle-button:hover {
+  color: #00070e;
+}
+
+
+.footer1 {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 125%;
+  margin-left: -800px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+.h3{
+  color: white;
+
+}
+/* Add this to your existing CSS file or adjust accordingly */
+/* .job-cont1-box {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 10px;
+  margin-left:-350px;
+  border-radius: 8px;
+  height: 130px;
+    width:150px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.job-cont2-box {
+  background-color: #fff;
+  padding: 20px;
+  margin-top:-180px;
+  margin-left: 180px;
+  border-radius: 8px;
+  height: 130px;
+    width:150px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.job-cont3-box {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 45px;
+    margin-left: 480px;
+    width:150px;
+    height: 130px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .job-cont4-box {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: -225px;
+    margin-left: -80px;
+    height: 130px;
+    width:150px;
+
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  } */
+
+.job-content-box h2 {
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.job-content-box ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.job-content-box li {
+  margin-bottom: 5px;
+}
+
+.job-content-box p {
+  color: #555;
+}
+
+.job-content1-box,
+.job-content2-box {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.job-content1-box {
+  margin-left: -350px;
+}
+
+.job-content2-box {
+  margin-top: -275px;
+  margin-left: 480px;
+}
+
+.job-content-box h2 {
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.job-content-box ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.job-content-box li {
+  margin-bottom: 5px;
+}
+
+.job-content-box p {
+  color: #555;
+}
+
+/* Apply Button */
+.apply-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.apply-button:hover {
+  background-color: #0056b3;
+}
+.job-cont-boxes {
+    display: flex;
+  }
+  
+  .job-cont1-box
+  {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    height: 210px;
+    width: 250px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-right: 10px; /* Adjust the margin-right to create space between boxes */
+  }
+  
+  .job-cont1-box {
+    margin-left: 0; /* Adjust the margin-left for the first box */
+  }
+  
