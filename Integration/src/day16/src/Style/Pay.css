@@ -1,0 +1,65 @@
+/* Apply.css */
+
+.payment-bg {
+    background-image: url('your_payment_background_image_url');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .payment-fc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    height: 50vh;
+  }
+  
+  .payment-f {
+    max-width: 500px;
+    background-image: url('your_payment_form_background_image_url');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .payment-f fieldset {
+    border-width: 5px;
+    padding: 10px;
+    border-color: #f2f2f2;
+    justify-content: center;
+  }
+  
+  .payment-card {
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+  }
+  
+  .payment-card input {
+    flex-grow: 1;
+    margin: 5px;
+    padding: 10px;
+    font-size: 14px;
+    box-sizing: border-box;
+    color: #000;
+    background-color: #cfc5c556;
+    width: 100%;
+  }
+  
+  .payment-su {
+    display: block;
+    margin: 0 auto;
+    padding: 12px 70px;
+    width: 200px;
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 5px;
+    border-color: #000;
+    background-color: #0991f9cf;
+    color: white;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,64 @@
+/* styles.css */
+.appliedtotal {
+    width: 100vw; /* Viewport width */
+    height: 100vh; /* Viewport height */
+    background-image: url("https://www.jobylon.com/hubfs/14-Backgrounds/bg_hero%20blue.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: fit-content;
+    background-position: center;
+  }
+  
+.applied-jobs-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .page-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .job-list {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: nowrap; /* Prevent items from wrapping */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .job-card {
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-right: 20px; /* Add some space between job cards */
+    background-color: rgba(223, 223, 223, 0.8);
+  }
+  
+  .job-title {
+    margin-top: 0;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .job-field,
+  .job-applied,
+  .job-confirmation-date,
+  .job-salary,
+  .job-location {
+    margin-bottom: 10px;
+  }
+  
+  .cancel-button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cancel-button:hover {
+    background-color: #c82333;
+  }

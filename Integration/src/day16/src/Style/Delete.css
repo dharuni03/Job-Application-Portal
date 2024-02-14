@@ -1,0 +1,45 @@
+.delete-user-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('https://e0.pxfuel.com/wallpapers/789/647/desktop-wallpaper-job-posting-background-great-job-job-passion-and-awesome-job-powerpoint-background-good-job.jpg');
+    background-size: cover;
+    width: 900px;
+    background-position: center;
+  }
+  
+  .delete-user-form {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  }
+  
+  .delete-user-form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .delete-user-form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .delete-user-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .delete-user-message {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+  

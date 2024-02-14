@@ -1,0 +1,132 @@
+.rcsi {
+  background: linear-gradient(to top right, #1325e8 -5%, #8f10b7 100%);
+}
+
+.cu {
+  background-color: #f1f1f1;
+  padding: 120px 0px;
+}
+
+.ci {
+  background-color: #fff;
+  position: relative;
+  box-shadow: 20px 22px 44px #cccc;
+  border-radius: 25px;
+}
+
+.cf {
+  padding: 60px 340px 90px 100px;
+}
+
+.rcsi {
+  height: 100%;
+}
+
+.cf h3 {
+  color: #000;
+  font-size: 40px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.cf p {
+  color: #000;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-bottom: 35px;
+}
+
+.fc {
+  border-radius: 0px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.fc:focus {
+  box-shadow: none;
+  outline: none;
+  border-bottom: 2px solid #1325e8;
+}
+
+.fc::placeholder {
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.cis {
+  position: absolute;
+  background-color: #2d2d2d;
+  right: 1px;
+  top: 18%;
+  height: 340px;
+  width: 340px;
+  padding: 40px;
+  border-radius: 25px 0 0 25px;
+}
+
+.cis h4 {
+  letter-spacing: 1px;
+  padding-bottom: 15px;
+}
+
+.di {
+  margin: 30px 0px;
+}
+
+.di i {
+  margin-right: 15px;
+}
+
+.di span {
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.cfs {
+  background: linear-gradient(to top right, #1325e8 -5%, #8f10b7 100%);
+  border: none;
+  color: #fff;
+  padding: 10px 15px;
+  width: 100%;
+  margin-top: 25px;
+  border-radius: 35px;
+  cursor: pointer;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.si li {
+  list-style: none;
+}
+
+.si li a {
+  color: #fff;
+  margin: 0px 15px;
+  font-size: 14px;
+}
+
+.si {
+  padding-bottom: 10px;
+}
+
+.ms {
+  padding: 50px 0px;
+}
+
+.mi h4,
+.mi p {
+  color: #000;
+  text-align: center;
+}
+
+.mi p {
+  font-size: 13px;
+}
+
+.mb {
+  margin-top: 50px;
+  border-radius: 30px;
+  overflow: hidden;
+}
